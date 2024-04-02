@@ -44,6 +44,7 @@ public class FilteringController {
         return mappingJacksonValue;
     }
 
+    //for dynamic filtering
     @GetMapping("/filtering-list") //field2, field3
     public MappingJacksonValue filteringList() {
         List<SomeBean> list =  Arrays.asList(new SomeBean("value1", "value2", "value3"),
