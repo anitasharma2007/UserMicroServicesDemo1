@@ -16,12 +16,12 @@ public class UserDaoService {
     private static List<User> users = new ArrayList<>();
     private static int usersCount = 0;
 
-    static{
-        users.add(new User(++usersCount, "Anita", LocalDate.now().minusYears(28)));
-        users.add(new User(++usersCount, "Test", LocalDate.now().minusYears(30)));
-        users.add(new User(++usersCount, "Test1", LocalDate.now().minusYears(25)));
-        users.add(new User(++usersCount, "Test2", LocalDate.now().minusYears(20)));
-    }
+//    static{
+//        users.add(new User(++usersCount, "Anita", LocalDate.now().minusYears(28)));
+//        users.add(new User(++usersCount, "Test", LocalDate.now().minusYears(30)));
+//        users.add(new User(++usersCount, "Test1", LocalDate.now().minusYears(25)));
+//        users.add(new User(++usersCount, "Test2", LocalDate.now().minusYears(20)));
+//    }
 
     //get all users
     public List<User> findAll(){

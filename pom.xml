@@ -26,6 +26,12 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--spring security-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
         <!--dependency for actuator-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,6 +55,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-hateoas</artifactId>
         </dependency>
+
+        <!-- mysql -->
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--        </dependency>-->
+
 
         <!--
         <dependency>
